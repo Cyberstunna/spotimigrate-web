@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'spotify-green': '#1ED760',
+        'spotify-black': '#202020',
+        'spotify-grey': '#404040'
+      }
+    },
   },
   plugins: [],
 }
